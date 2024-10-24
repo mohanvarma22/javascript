@@ -40,6 +40,26 @@ const obj3 = {...obj1, ...obj2}//mostly used, spread function same as arrays
 // console.log(user.hasOwnProperty('isLoggedIn'));
 
 
+const person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+  };
+  
+  const { name, age } = person;
+  
+  console.log(name); // Output: John
+  console.log(age);  // Output: 30
+  
 
+// const navbar = ({company}) =>{
 
+// }
+
+// navbar(company="mohan")
+
+// {
+//     "name":"rens",
+//     "price": "50"
+// }
 
