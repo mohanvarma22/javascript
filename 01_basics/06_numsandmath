@@ -1,0 +1,15 @@
+const balance = new Number(100)
+
+// console.log(balance.toString());
+// console.log(balance.toFixed(2));
+
+const otherNum = 123.8
+// console.log(otherNum.toPrecision(3))
+
+// console.log(Math);
+// console.log(Math.abs(-4))
+// round,floor,ceil,min,max
+
+
+console.log(Math.round((Math.random())*6)+1)
+
