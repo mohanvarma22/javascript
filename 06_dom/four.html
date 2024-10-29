@@ -17,5 +17,23 @@
         document.querySelector('.language').appendChild(li)
      }
      addLanguage("Python")
+
+     function addOptimallanguage(langName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+     }
+     addOptimallanguage('golang')
+     //this is the optimal version of the previous one
+
+     //to edit
+     const secondLang = document.querySelector("li:nth-child(2)")
+    //  secondLang.innerHTML = "new"
+     const newli = document.createElement('li')
+     newli.textContent = "Mojo"
+     secondLang.replaceWith(newli)
+     //remove
+     const lastLang = document.querySelector("li:last-child")
+     lastLang.remove()
 </script>
 </html>
