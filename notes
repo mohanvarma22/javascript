@@ -1,0 +1,18 @@
+// js => single threaded, synchronous code
+
+// '''blocking code ex: if you want to access a file then you 
+// have to let the kernel t0 read a file and get back to you until then you have to wait  , non blocking code'''
+
+//non blocking code has many disadvantages for an example if nuv oka database ni read chesaka you can verify that if  the user is already registered or not
+// so in some cases you needing blocking code
+
+// js engine lo only memory heap and call stack untay which is single threaded in nature
+// manam vade browser lo kani node js lo kani js engine mathrame undavu we also have web api and task queue along 
+//ee mudu oka event loop lo untay
+
+//js engine lo suppose set timer call chesam anuko aa set timeer anedi 
+// web api lo untundi akkada call ayiddi aa pani aypoyaka then
+// it gets sent to task queue fifo lo it will be sent back to js engine call stack
+
+
+ 
