@@ -81,7 +81,7 @@
 // }
 
 // getAllusers()
-
+//fetch ki priority queue untundi so ventane call stack lo add ayiddi
 fetch('https://jsonplaceholder.typicode.com/users').then((response)=>{
     return response.json()
 }).then((data) => {
